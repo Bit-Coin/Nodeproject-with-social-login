@@ -12,7 +12,9 @@
     "start": "node app.js",
     "test": "mocha --reporter spec",
     "postinstall": "npm rebuild node-sass",
-    "eslint": "eslint **/*.js"
+    "eslint": "eslint **/*.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
@@ -60,7 +62,8 @@
     "tumblr.js": "^1.1.1",
     "twilio": "^3.3.1-edge",
     "twit": "^2.2.5",
-    "validator": "^7.0.0"
+    "validator": "^7.0.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -94,5 +97,6 @@
     "plugins": [
       "chai-friendly"
     ]
-  }
+  },
+  "snyk": true
 }
