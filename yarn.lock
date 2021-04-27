@@ -2,38 +2,6 @@
 # yarn lockfile v1
 
 
-"@types/bluebird@~3.0.36":
-  version "3.0.37"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.0.37.tgz#2e76b394aa9bea40d04241a31c0887a260283388"
-
-"@types/express-serve-static-core@*":
-  version "4.0.41"
-  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.0.41.tgz#05df354cbbe5069b4c089320065870033f41e670"
-  dependencies:
-    "@types/node" "*"
-
-"@types/express@~4.0.34":
-  version "4.0.35"
-  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.0.35.tgz#6267c7b60a51fac473467b3c4a02cd1e441805fe"
-  dependencies:
-    "@types/express-serve-static-core" "*"
-    "@types/serve-static" "*"
-
-"@types/mime@*":
-  version "0.0.29"
-  resolved "https://registry.yarnpkg.com/@types/mime/-/mime-0.0.29.tgz#fbcfd330573b912ef59eeee14602bface630754b"
-
-"@types/node@*":
-  version "7.0.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.8.tgz#25e4dd804b630c916ae671233e6d71f6ce18124a"
-
-"@types/serve-static@*":
-  version "1.7.31"
-  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.7.31.tgz#15456de8d98d6b4cff31be6c6af7492ae63f521a"
-  dependencies:
-    "@types/express-serve-static-core" "*"
-    "@types/mime" "*"
-
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -280,7 +248,7 @@ bluebird@^2.10.2:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.11.0.tgz#534b9033c022c9579c56ba3b3e5a5caafbb650e1"
 
-bluebird@^3.0, bluebird@^3.0.6, bluebird@^3.1.5, bluebird@^3.4.0, bluebird@^3.4.7:
+bluebird@^3.0, bluebird@^3.0.6, bluebird@^3.1.5, bluebird@^3.4.7:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
 
@@ -1118,15 +1086,13 @@ express-status-monitor@^0.1.5:
     pidusage "^1.1.0"
     socket.io "^1.5.1"
 
-express-validator@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/express-validator/-/express-validator-3.1.2.tgz#bae23dfa11191398d5fcada3dd7c54f28428195a"
+express-validator@^6.5.0:
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/express-validator/-/express-validator-6.10.1.tgz#0ec71a2e472d85158fede76f0199054034b06e7c"
+  integrity sha512-joYSJdkUyKMZ2gAUvyQNmqJ7x1vhrC/IHCKWauhKfoXNF83j65KnlqEEXXynBnJRd0QrNZ/aXw9uIhS6ptG0Cg==
   dependencies:
-    "@types/bluebird" "~3.0.36"
-    "@types/express" "~4.0.34"
-    bluebird "^3.4.0"
-    lodash "^4.16.0"
-    validator "~6.2.0"
+    lodash "^4.17.21"
+    validator "^13.5.2"
 
 express@^4.14.0:
   version "4.15.2"
@@ -1958,9 +1924,14 @@ lodash.some@^4.4.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.some/-/lodash.some-4.6.0.tgz#1bb9f314ef6b8baded13b549169b2a945eb68e4d"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.16.0, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lodash@~2.4.1:
   version "2.4.2"
@@ -3500,13 +3471,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "~1.0.0"
     spdx-expression-parse "~1.0.0"
 
-validator@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-7.0.0.tgz#c74deb8063512fac35547938e6f0b1504a282fd2"
-
-validator@~6.2.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-6.2.1.tgz#bc575b78d15beb2e338a665ba9530c7f409ef667"
+validator@^13.5.2, validator@^13.6.0:
+  version "13.6.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.6.0.tgz#1e71899c14cdc7b2068463cb24c1cc16f6ec7059"
+  integrity sha512-gVgKbdbHgtxpRyR8K0O6oFZPhhB5tT1jeEHZR0Znr9Svg03U0+r9DXWMrnRAB+HtCStDQKlaIZm42tVsVjqtjg==
 
 vary@~1.1.0:
   version "1.1.0"
