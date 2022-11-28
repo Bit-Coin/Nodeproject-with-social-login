@@ -1803,11 +1803,12 @@ kind-of@^3.0.2:
   dependencies:
     is-buffer "^1.0.2"
 
-lastfm@^0.9.2:
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/lastfm/-/lastfm-0.9.2.tgz#d00ca2e3b30eb484e510792875525900e4d77d88"
+lastfm@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/lastfm/-/lastfm-0.9.4.tgz#54c68fbfa31630cdc21b2bf37a1b1a59ec1e4617"
+  integrity sha512-zT7nQfdFZVdUMjjaUwRldKFrmb5lv/8q/bcxzzDMZuK9Nq4nSoxbeHWq9SXDpREaJztd9aAXPPyaY2HOotdbCw==
   dependencies:
-    underscore "~1.6.0"
+    underscore "~1.13.6"
 
 lazy-cache@^1.0.3:
   version "1.0.4"
@@ -3463,9 +3464,10 @@ underscore@1.x, underscore@^1.7.0:
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
 
-underscore@~1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.6.0.tgz#8b38b10cacdef63337b8b24e4ff86d45aea529a8"
+underscore@~1.13.6:
+  version "1.13.6"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.6.tgz#04786a1f589dc6c09f761fc5f45b89e935136441"
+  integrity sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
